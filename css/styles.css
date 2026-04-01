@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #EEE5CE;
+  background-image: url("../img/background.jpg");
+}
+
 h1, h2, h3 {
   color: #58180D;
   font-family:  Cinzel;
@@ -32,19 +37,6 @@ p{
   font-size: clamp(0.8em, 5vw, 1em);  
 }
 
-body{
-  background-color: #EEE5CE;
-  background-image: url("../img/background.jpg");
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main{
-  flex: 1;
-  padding: 0em 2em;
-}
-
 header {
   background-color: #C9AD6A;
   padding: 3em 0em 2em 0em;
@@ -55,15 +47,27 @@ nav {
   background-color: #e5d6a7;
   padding: 1em;
   font-family: Fira Sans;
+  font-weight: bold;
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  a{
-    text-decoration: none;
-    color: #000;
-  } 
 }
+
+nav a:hover{ 
+  color: #58180D; 
+}
+
+main{
+  padding: 0em 2em;
+}
+
+
+a{
+  text-decoration: none;
+  color: #000;
+} 
+
 
 .section-main
 {
@@ -74,15 +78,15 @@ nav {
   margin: 5em;
 }
 
+img{
+  max-width: 70%;
+}
+
 .contenedor-texto{
   margin-bottom: 3em;
   display: flex;
   flex-direction: column; 
   justify-content: center;
-}
-
-img{
-  max-width: 70%;
 }
 
 #sobre-mi img, #peliculas img{
@@ -94,21 +98,24 @@ img{
   transition: all 0.5s;
 }
 
-#sobre-mi img:hover, #peliculas img:hover{
-  box-shadow: 0px 0px 20px 5px #8f8971;
-  transform: scale(0.9);
+article{
+  margin-bottom: 3em;
 }
 
 #tarjetas article{
   display: flex;
   flex-direction: column;
-  margin: 3em 0em;
   background-color: #d2e6c8;
   padding: 2em;
   transition: all 0.5s;
 }
 
-#tarjetas article:hover{
+#tarjetas img{
+  align-self: center;
+}
+
+/* Pequeña animacion para las imagenes y las tarjetas de mis proyectos */
+#tarjetas article:hover, #sobre-mi img:hover, #peliculas img:hover{
   box-shadow: 0px 0px 20px 5px #8f8971;
   transform: scale(0.9);
 }
@@ -148,42 +155,42 @@ tbody
   font-weight: 500;
 }
 
+/* Cambio el color de las filas impares de la tabla */
 tbody tr:nth-child(odd)
 {
     background-color: #d2e6c8;
 }
 
 td{
-  height: 5em;
-  width: 100%;
+  height: 3em;
 }
 
 form{
   padding-top: 1em ;
   display: flex;
   flex-direction: column;
+  align-self: center;
+  width: 100%;
 }
 
 input{
-    width: 100%;
-    font-size: clamp(0.7em, 2vw, 1em);
-    padding: 0.6em 0.6em;
-    border: none;
-    outline: none;
-    background: none;
-    background-color: #fff;
-    resize: none;
-    font-family: var(--fontForm);
-    margin-bottom: 1em;
+  font-size: clamp(0.7em, 2vw, 1em);
+  padding: 0.6em 0.6em;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #fff;
+  resize: none;
+  font-family: Lora;
+  margin-bottom: 1em;
 }
 
 button{
-    cursor: pointer;
-    width: 100%;
-    background-color: #BBAD82;
-    font-size: 1.3em;
-    padding: 0.6em;
-    border: none;
+  cursor: pointer;
+  background-color: #BBAD82;
+  font-size: 1.3em;
+  padding: 0.6em;
+  border: none;
 }
 
 button:hover{
@@ -203,50 +210,44 @@ footer{
   padding: 4em 4em 8em 4em;
 }
 
-#section-redes-sociales{
-  h3{
-    padding-top: 1em;
-    margin-bottom: 1em;
-    font-size: clamp(1em, 5svw, 1.5em);
-  }
-
-  a{
-    text-decoration: none;
-    color: #000;
-  }
-
-  ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: var(--fontFooter);
-    font-size: clamp(0.5em, 5svw, 1em);
-  }
+.ul-redes-sociales{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Lora;
+  font-size: clamp(0.5em, 5svw, 1em);
+}
   
-  li{
-      display: flex;
-      flex-direction: column;
-      gap: 1em;
-  }
-
-  img {
-      max-width: 15%;
-      height: auto;
-  }
+.li-redes-sociales{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-/* Mediaqueries */
+.imagen-redes-sociales{
+  max-width: 30%;
+  height: auto;
+  transition: all 0.5s;
+}
 
-@media screen and (min-width: 880px)
-{
+.imagen-redes-sociales:hover{
+  transform: scale(0.9);
+}
+
+
+/* Mediaqueries para pantallas mayores a 880 */
+@media screen and (min-width: 880px){
   main{
-    padding: 0em 10em;
+    padding: 0em 15em;
+  }
+  
+  img {
+    max-width: 35%;
   }
 
-  #tarjetas article{
-    flex-direction: row;
-    gap: 2em;
+  #tarjetas img{
+    max-width: 50%;
   }
 
   .habilidades-contenedor{
@@ -254,18 +255,12 @@ footer{
     justify-content: space-evenly;
     gap: 3em;
   }
-  
-  img{
-    max-width: 30%;
-  }
 
   form{
-    padding: 0em 15em;
+    width: 50%;
   }
 
-  .social-media-links-list img{
-      max-width: 15%;
-      height: auto;
+  .imagen-redes-sociales{
+    max-width: 20%;
   }
 }
-
