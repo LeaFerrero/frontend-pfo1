@@ -10,7 +10,7 @@
 <br>
 <h2>Checklist - Práctica Formativa Obligatoria 1</h2>
 <h3>Estructura del Proyecto</h3>
-<table>
+<table width="100%">
     <tr><td>[✅] Archivo "index.html" ubicado en la raíz.</td></tr>
     <tr><td>[✅] Carpeta "css" que contenga el archivo "styles.css".</td></tr>
     <tr><td>[✅] (Opcional) Carpeta "img" para recursos gráficos.</td></tr>
@@ -18,7 +18,7 @@
 </table>
 
 <h3>Repositorio y Publicación</h3>
-<table>
+<table width="100%>
     <tr><td>[✅] Repositorio en GitHub creado.</td></tr>
     <tr><td>[✅] Proyecto subido al repositorio.</td></tr>
     <tr><td>[✅] Proyecto publicado utilizando GitHub Pages y Vercel.</td></tr>
@@ -26,7 +26,7 @@
 </table>
 
 <h3>Uso de Google Fonts:</h3>
-<table>
+<table width="100%">
     <tr><td>[] Enlace a Google Fonts incluido en la sección "head" del HTML.</td></tr>
     <tr><td>[] La tipografía importada se aplica en el sitio.</td></tr>
     <tr><td>[] ¿Por qué elegiste esa fuente? </td></tr>
@@ -37,7 +37,7 @@
 </table>
 
 <h3>HTML</h3>
-<table>
+<table width="100%">
     <tr><td>[] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".</td></tr>
     <tr><td>[] Se han incluido las metaetiquetas obligatorias: charset y viewport.</td></tr>
     <tr><td>[] Se ha definido un título descriptivo.</td></tr>
@@ -48,7 +48,7 @@
 </table>
 
 <h3>CSS</h3>
-<table>
+<table width="100%">
     <tr><td>[] Existe el archivo "styles.css" con estilos personalizados.</td></tr>
     <tr><td>[] Se utilizan selectores basados en clases e identificadores.</td></tr>
     <tr><td>[] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.</td></tr>
@@ -61,7 +61,7 @@
 </table>
 
 <h3>Estilización de Componentes</h3>
-<table>
+<table width="100%">
     <tr><td>[] Se han personalizado los estilos de tablas, botones, enlaces y formularios.</td></tr>
     <tr><td>[] Se han ajustado las dimensiones utilizando unidades relativas (%, rem, vh).</td></tr>
     <tr><td>[] Se ha implementado al menos una animación o transición (efecto hover).</td></tr>
@@ -72,7 +72,7 @@
 </table>
 
 <h3>Consideraciones Adicionales</h3>
-<table>
+<table width="100%">
     <tr><td>[] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.</td></tr>
     <tr><td>[] Se aplicaron buenas prácticas de accesibilidad (atributos alt en imágenes).</td></tr>
     <tr><td>[] Se añadieron comentarios adicionales sobre decisiones de diseño.</td></tr>
