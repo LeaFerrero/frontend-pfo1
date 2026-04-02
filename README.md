@@ -10,7 +10,7 @@
 <br>
 <h2>Checklist - Práctica Formativa Obligatoria 1</h2>
 <h3>Estructura del Proyecto</h3>
-<table width="100%">
+<table width: style="width: 100%; border-collapse: collapse;" width="100%">
     <tr><td>[✅] Archivo "index.html" ubicado en la raíz.</td></tr>
     <tr><td>[✅] Carpeta "css" que contenga el archivo "styles.css".</td></tr>
     <tr><td>[✅] (Opcional) Carpeta "img" para recursos gráficos.</td></tr>
@@ -18,7 +18,7 @@
 </table>
 
 <h3>Repositorio y Publicación</h3>
-<table width="100%>
+<table width="100%">
     <tr><td>[✅] Repositorio en GitHub creado.</td></tr>
     <tr><td>[✅] Proyecto subido al repositorio.</td></tr>
     <tr><td>[✅] Proyecto publicado utilizando GitHub Pages y Vercel.</td></tr>
@@ -26,7 +26,7 @@
 </table>
 
 <h3>Uso de Google Fonts:</h3>
-<table width="100%" style="width: 100%">
+<table width="100%" >
     <tr><td>[] Enlace a Google Fonts incluido en la sección "head" del HTML.</td></tr>
     <tr><td>[] La tipografía importada se aplica en el sitio.</td></tr>
     <tr><td>[] ¿Por qué elegiste esa fuente? </td></tr>
