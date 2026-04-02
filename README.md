@@ -31,7 +31,7 @@ https://pfo1-portafolio-personal.vercel.app/
 - [✅] Repositorio en GitHub creado.
 - [✅] Proyecto subido al repositorio.
 - [✅] Proyecto publicado utilizando GitHub Pages y Vercel.
-- [] En el "README.md" se indica la URL de GitHub Pages.
+- [✅] En el "README.md" se indica la URL de GitHub Pages.
 
 ### Uso de Google Fonts:
 

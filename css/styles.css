@@ -113,6 +113,7 @@ article img{
 }
 
 #tarjetas img{
+  margin-top: 2rem;
   align-self: center;
 }
 
