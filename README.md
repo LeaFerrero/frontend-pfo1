@@ -9,7 +9,6 @@
 </p>
 <br>
 <h2>Checklist - Práctica Formativa Obligatoria 1</h2>
-<br>
 <h3>Estructura del Proyecto</h3>
 <table>
     <tr><td>[✅] Archivo "index.html" ubicado en la raíz.</td></tr>
@@ -20,9 +19,9 @@
 
 <h3>Repositorio y Publicación</h3>
 <table>
-    <tr><td>[] Repositorio en GitHub creado.</td></tr>
-    <tr><td>[] Proyecto subido al repositorio.</td></tr>
-    <tr><td>[] Proyecto publicado utilizando GitHub Pages.</td></tr>
+    <tr><td>[✅] Repositorio en GitHub creado.</td></tr>
+    <tr><td>[✅] Proyecto subido al repositorio.</td></tr>
+    <tr><td>[✅] Proyecto publicado utilizando GitHub Pages y Vercel.</td></tr>
     <tr><td>[] En el "README.md" se indica la URL de GitHub Pages.</td></tr>
 </table>
 
@@ -31,8 +30,10 @@
     <tr><td>[] Enlace a Google Fonts incluido en la sección "head" del HTML.</td></tr>
     <tr><td>[] La tipografía importada se aplica en el sitio.</td></tr>
     <tr><td>[] ¿Por qué elegiste esa fuente?<br>
+            <i> 
                 Respuesta: Use 3 fuenes: Cinzel, Lora y Fira sans. Las use porque me base en la estetica del manual de Dungeons and Drangos para el proyecto.
                 Y esas fuentes encajaban pefectamente con el estilo visual que le queria dar.
+            </i>
     </td></tr>
 </table>
 
