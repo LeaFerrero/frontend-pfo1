@@ -35,7 +35,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
 
 - [] Enlace a Google Fonts incluido en la sección "head" del HTML.
 - [] La tipografía importada se aplica en el sitio.
-- [] ¿Por qué elegiste esa fuente?
+- [] ¿Por qué elegiste esa fuente?</br>
   Respuesta: Use 3 fuenes: Cinzel, Lora y Fira sans. Las use porque me base en la estetica del manual de Dungeons and Drangos para el proyecto.
   Y esas fuentes encajaban pefectamente con el estilo visual que le queria dar.
 
@@ -57,7 +57,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
   Layout y Organización:
 - [] Se ha organizado el layout utilizando Flexbox o Grid.
 - [] ¿Qué ventajas encontraste al utilizar Flexbox o Grid?
-  Respuesta: Flexbox me resultó mucho más sencillo de aprender que Grid.
+  Respuesta: Flexbox me resultó mucho más sencillo de aprender que Grid.</br>
   La mayor ventaja fue la facilidad con la que pude alinear el contenido y distribuir los espacios de forma dinámica.
 
 ### Estilización de Componentes
