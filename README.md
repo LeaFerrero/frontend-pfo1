@@ -1,28 +1,29 @@
-#Frontend PFO1: Portafolio Personal</h1>
+# Frontend PFO1: Portafolio Personal</h1>
 
-##Sobre el Proyecto</h2>
+## Sobre el Proyecto</h2>
+
 Este proyecto es mi Práctica Formativa Obligatoria 1 (PFO1) de frontend.
 Consiste en una landing page personal que explica un poco quién soy,
 mi aprendizaje por el mundo IT y algunos de mis hobbies.
 Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En definitiva, es un pequeño manual de quién soy.
 
-##Checklist - Práctica Formativa Obligatoria 1
+## Checklist - Práctica Formativa Obligatoria 1
 
-###Estructura del Proyecto
+### Estructura del Proyecto
 
 - [✅] Archivo "index.html" ubicado en la raíz.
 - [✅] Carpeta "css" que contenga el archivo "styles.css".
 - [✅] (Opcional) Carpeta "img" para recursos gráficos.
 - [✅] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 
-###Repositorio y Publicación
+### Repositorio y Publicación
 
 - [✅] Repositorio en GitHub creado.
 - [✅] Proyecto subido al repositorio.
 - [✅] Proyecto publicado utilizando GitHub Pages y Vercel.
 - [] En el "README.md" se indica la URL de GitHub Pages.
 
-###Uso de Google Fonts:
+### Uso de Google Fonts:
 
 - [] Enlace a Google Fonts incluido en la sección "head" del HTML.
 - [] La tipografía importada se aplica en el sitio.
@@ -30,7 +31,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
   Respuesta: Use 3 fuenes: Cinzel, Lora y Fira sans. Las use porque me base en la estetica del manual de Dungeons and Drangos para el proyecto.
   Y esas fuentes encajaban pefectamente con el estilo visual que le queria dar.
 
-###HTML
+### HTML
 
 - [] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 - [] Se han incluido las metaetiquetas obligatorias: charset y viewport.
@@ -40,7 +41,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
 - [] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
 - [] Se han insertado al menos 4 comentarios explicativos en el código HTML.
 
-###CSS
+### CSS
 
 - [] Existe el archivo "styles.css" con estilos personalizados.
 - [] Se utilizan selectores basados en clases e identificadores.
@@ -51,7 +52,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
   Respuesta: Flexbox me resultó mucho más sencillo de aprender que Grid.
   La mayor ventaja fue la facilidad con la que pude alinear el contenido y distribuir los espacios de forma dinámica.
 
-###Estilización de Componentes
+### Estilización de Componentes
 
 - [] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
 - [] Se han ajustado las dimensiones utilizando unidades relativas (%, rem, vh).
@@ -60,7 +61,7 @@ Todo bajo una estética inspirada en los manuales de Dungeons & Dragons. En defi
   Respuesta:Implementé transiciones de all 0.5s y transformaciones de scale(0.9) con box-shadow en el estado :hover de las tarjetas de proyectos y las imágenes.
   Consideré que eran adecuadas porque aportan, además de mejorar la experiencia de usuario al resaltar visualmente el elemento seleccionado.
 
-###Consideraciones Adicionales
+### Consideraciones Adicionales
 
 - [] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 - [] Se aplicaron buenas prácticas de accesibilidad (atributos alt en imágenes).
