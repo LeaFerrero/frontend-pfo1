@@ -79,10 +79,6 @@ article {
   flex-direction: column;
 }
 
-article img{
-  max-width: 50%;
-}
-
 .contenedor-texto{
   display: flex;
   flex-direction: column; 
@@ -91,6 +87,7 @@ article img{
 }
 
 #sobre-mi img, #peliculas img{
+  max-width: 50%;
   border-image-outset: 12px 0px;
   border-image-width: 15px;
   box-shadow: 0px 0px 5px 5px #8f8971;
@@ -113,6 +110,7 @@ article img{
 }
 
 #tarjetas img{
+  max-width: 75%;
   margin-top: 2rem;
   align-self: center;
 }
@@ -249,7 +247,7 @@ footer{
   }
   
   /* Achico un poco las imagenes para que entren mejor y los posters no queden tan grandes */
-  article img{
+  #sobre-mi img, #peliculas img{
     max-width: 25%;
   }
 
