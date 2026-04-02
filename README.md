@@ -29,9 +29,10 @@
 <table>
     <tr><td>[] Enlace a Google Fonts incluido en la sección "head" del HTML.</td></tr>
     <tr><td>[] La tipografía importada se aplica en el sitio.</td></tr>
-    <tr><td>[] ¿Por qué elegiste esa fuente?  </td></tr>
-    <tr><td>                Respuesta: Use 3 fuenes: Cinzel, Lora y Fira sans. Las use porque me base en la estetica del manual de Dungeons and Drangos para el proyecto.
-                Y esas fuentes encajaban pefectamente con el estilo visual que le queria dar.
+    <tr><td>[] ¿Por qué elegiste esa fuente? </td></tr>
+    <tr><td> 
+        Respuesta: Use 3 fuenes: Cinzel, Lora y Fira sans. Las use porque me base en la estetica del manual de Dungeons and Drangos para el proyecto.
+        Y esas fuentes encajaban pefectamente con el estilo visual que le queria dar.
     </td></tr>
 </table>
 
