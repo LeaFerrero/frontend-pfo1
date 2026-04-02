@@ -2,7 +2,7 @@
 {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Para que el desplazamiento sea suave al cliquear en los enlaces */
   box-sizing: border-box;
 }
 
