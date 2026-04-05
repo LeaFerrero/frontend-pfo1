@@ -83,6 +83,7 @@ article {
   display: flex;
   flex-direction: column; 
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 #sobre-mi img, #peliculas img{
@@ -169,6 +170,19 @@ form{
   flex-direction: column;
   align-self: center;
   width: 100%;
+}
+
+.grupo-label-input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label{
+  font-family: Lora;
+  font-weight: bold;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
+  margin-bottom: 0.5rem;
 }
 
 input{
